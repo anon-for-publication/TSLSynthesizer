@@ -1,0 +1,65 @@
+html {
+    background: #050505;
+    color: #f3e939;
+    font-family: Courier, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #050505;
+}
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1, a, pre {
+    color: #fb2a3d;
+}
+
+h2 {
+    color: #076cf0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.container {
+    width: 1010px;
+    margin: 40px auto;
+    color: black;
+}
+
+.keyboard {
+    width: 600px;
+    height: 150px;
+}
+
+.the-hancock {
+    float: right;
+    width: 300px;
+}
+
+.harmonizerIntervalWidth {
+    width: 300px;
+}
+
+pre {
+    margin-left: 0;
+}
+
+#specification, #specHelper,
+#synthStatus,
+#lastClicked, #controls{
+    margin: 0 10px;
+}
+
+input, label, .musicOption {
+    display:block;
+    text-align: left;
+}
+
